@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "kapla-test"
+version = "0.1.0"
+description = ""
+authors = ["CharbonnierG <guillaume.charbonnier@capgemini.com>"]
+packages = [{ include = "kapla" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytest = "^6.2.4"
+PyYAML = "^5.4.1"
+pydantic = "^1.8.2"
+
+[tool.poetry.dev-dependencies]
+black = "^21.6b0"
+mypy = "^0.910"
+flake8 = "^3.9.2"
+isort = "^5.9.2"
+types-PyYAML = "^5.4.3"
+pytest-cov = "^2.12.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

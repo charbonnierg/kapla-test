@@ -1,0 +1,9 @@
+groups:
+  - examples
+
+variables:
+  key: value
+
+tests:
+  - name: Demo test
+    description: A minimal test for demonstration purpose
